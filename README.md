@@ -2,19 +2,18 @@
   Folow this Steps and you will run it successfuly :>
   <code>
      - sudo apt update
-   - sudo apt install nodejs npm
-   - mkdir electron-app
-   - cd electron-app
-   - npm init -y
-   - npm install electron --save-dev
-   - touch main.js index.html
+    - sudo apt install nodejs npm
+    - mkdir electron-app
+    - cd electron-app
+    - npm init -y
+    - npm install electron --save-dev
+    - touch main.js index.html
   </code>
 
-     #  in main.js:
-     <code>
-              const { app, BrowserWindow } = require('electron')
+  #  in main.js:
+  <code>
+        const { app, BrowserWindow } = require('electron')
         const path = require('path')
-        
         function createWindow () {
               const win = new BrowserWindow({
                 width: 800,
@@ -22,11 +21,9 @@
               })
               win.loadFile('index.html')
             }
-            
        app.whenReady().then(() => {
               createWindow()
             })
-            
        app.on('window-all-closed', () => {
               if (process.platform !== 'darwin') {
                 app.quit()
@@ -34,11 +31,10 @@
             })
      </code>
 
-     # index.html
-
-     <code>
-       default Html page only to test
-     </code>
+  # index.html
+  <code>
+      default Html page only to test
+  </code>
 
   <h4>make sur your package.json main and scripts property looks like that : </h4>
   <code>
