@@ -33,15 +33,15 @@
      # // index.html
 
      <code>
-        <!DOCTYPE html>
-          <html>
-            <head>
+        <!DOCTYPE html.>
+          <html.>
+            <head.>
               <title>Hello Electron</title>
-            </head>
-            <body>
-              <h1>Hello Electron!</h1>
-            </body>
-          </html>
+            </head.>
+            <body.>
+              <h1.>Hello Electron!</h1.>
+            </body>.
+            </html.>
      </code>
 
   <h4>make sur your package.json main and scripts property looks like that : </h4>
