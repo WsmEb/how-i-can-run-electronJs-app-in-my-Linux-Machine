@@ -32,15 +32,17 @@
 
      # // index.html
 
-     <!DOCTYPE html>
-  <html>
-    <head>
-      <title>Hello Electron</title>
-    </head>
-    <body>
-      <h1>Hello Electron!</h1>
-    </body>
-  </html>
+     <pre>
+        <!DOCTYPE html>
+          <html>
+            <head>
+              <title>Hello Electron</title>
+            </head>
+            <body>
+              <h1>Hello Electron!</h1>
+            </body>
+          </html>
+     </pre>
 
   # make sur your package.json main and scripts property looks like that : 
   {
