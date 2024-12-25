@@ -30,7 +30,7 @@
               }
             })
 
-     // index.html
+     # // index.html
 
      <!DOCTYPE html>
   <html>
@@ -42,14 +42,14 @@
     </body>
   </html>
 
-  // make sur your package.json main and scripts property looks like that : 
-       {
+  # make sur your package.json main and scripts property looks like that : 
+  {
       "main": "main.js",
       "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "electron ."
       }
-    }
+  }
 
 
   # // and Now ?? :
