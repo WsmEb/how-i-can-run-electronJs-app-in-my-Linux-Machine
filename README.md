@@ -33,15 +33,7 @@
      # // index.html
 
      <code>
-        <!DOCTYPE html.>
-          <html.>
-            <head.>
-              <title>Hello Electron</title>
-            </head.>
-            <body.>
-              <h1.>Hello Electron!</h1.>
-            </body>.
-            </html.>
+       default Html page only to test
      </code>
 
   <h4>make sur your package.json main and scripts property looks like that : </h4>
