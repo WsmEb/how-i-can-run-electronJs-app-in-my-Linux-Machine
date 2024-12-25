@@ -37,13 +37,15 @@
      </code>
 
   <h4>make sur your package.json main and scripts property looks like that : </h4>
-  {
+  <code>
+      {
       "main": "main.js",
       "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "electron ."
       }
   }
+  </code>
 
 
   # // and Now ?? :
