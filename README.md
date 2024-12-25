@@ -32,7 +32,7 @@
 
      # // index.html
 
-     <pre>
+     <code>
         <!DOCTYPE html>
           <html>
             <head>
@@ -42,9 +42,9 @@
               <h1>Hello Electron!</h1>
             </body>
           </html>
-     </pre>
+     </code>
 
-  # make sur your package.json main and scripts property looks like that : 
+  <h4>make sur your package.json main and scripts property looks like that : </h4>
   {
       "main": "main.js",
       "scripts": {
